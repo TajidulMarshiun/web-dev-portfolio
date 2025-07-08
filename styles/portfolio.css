@@ -42,6 +42,10 @@
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 nav ul{
     display: flex;
     margin-right: 50px;
@@ -110,6 +114,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
 }
 
 /* about styles */
@@ -117,7 +127,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 
 .about-items{
@@ -127,4 +137,15 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+
+/* .skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px ;
 }
