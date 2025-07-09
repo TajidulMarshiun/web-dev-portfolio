@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.banner-profile-pic{
+    background-color: none;
+}
 
 /* shared style */
 .secondary-bg{
